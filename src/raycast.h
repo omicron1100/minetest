@@ -5,7 +5,11 @@
 #pragma once
 
 #include "voxelalgorithms.h"
+#include "irr_v3d.h"
+#include "irr_aabb3d.h"
 #include "util/pointedthing.h"
+
+namespace core = irr::core;
 
 //! Sorts PointedThings based on their distance.
 struct RaycastSort
