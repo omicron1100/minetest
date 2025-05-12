@@ -4,8 +4,8 @@
 
 #pragma once
 
+#include "core/types.h"
 #include <string>
-#include "irrlichttypes.h"
 
 enum TimePrecision : s8
 {
